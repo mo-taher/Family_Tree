@@ -10,7 +10,7 @@ body {
 	align-items: center;
 	font-family: 'Poppins', sans-serif;
 	background-color: #F7F5EB;
-	width: 150%;
+	width: 130%;
 	zoom: 20%;
 	overflow-x: scroll;
 }
@@ -110,3 +110,30 @@ body {
 .tree li a:hover+ul li::after, .tree li a:hover+ul li::before, .tree li a:hover+ul::before, .tree li a:hover+ul ul::before {
 	border-color: #94a0b4;
 }
+
+
+/* @media only screen and (min-width: 768px){
+	body {
+		height: 110vh;
+		display: grid;
+		align-items: center;
+		font-family: 'Poppins', sans-serif;
+		background-color: #F7F5EB;
+		width: 150%;
+		zoom: 15%;
+		overflow-x: scroll;
+	}
+}
+
+@media (max-width: 1024px){
+	body {
+		height: 100vh;
+		display: grid;
+		align-items: center;
+		font-family: 'Poppins', sans-serif;
+		background-color: #F7F5EB;
+		width: 50%;
+		zoom: 20%;
+		overflow-x: scroll;
+	}
+} */
