@@ -13,6 +13,7 @@ body {
 	width: 130%;
 	zoom: 20%;
 	overflow-x: scroll;
+	overflow-y: scroll;
 }
 .tree {
 	width: 100%;
@@ -112,28 +113,30 @@ body {
 }
 
 
-/* @media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
 	body {
 		height: 110vh;
 		display: grid;
 		align-items: center;
 		font-family: 'Poppins', sans-serif;
 		background-color: #F7F5EB;
-		width: 150%;
-		zoom: 15%;
+		height: max-content;
+		width: max-content;
+		zoom: 30%;
 		overflow-x: scroll;
 	}
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1191px){
 	body {
 		height: 100vh;
 		display: grid;
 		align-items: center;
 		font-family: 'Poppins', sans-serif;
 		background-color: #F7F5EB;
-		width: 50%;
-		zoom: 20%;
+		height: max-content;
+		width: max-content;
+		zoom: 30%;
 		overflow-x: scroll;
 	}
-} */
+}
