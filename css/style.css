@@ -4,6 +4,7 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
+
 body {
 	height: 100vh;
 	display: grid;
@@ -120,7 +121,7 @@ body {
 		background-color: #F7F5EB;
 		height: max-content;
 		width: max-content;
-		zoom: 20%;
+		zoom: 25%;
 		overflow-x: scroll;
 		margin: auto;
 	}
@@ -135,12 +136,11 @@ body {
 		background-color: #F7F5EB;
 		height: max-content;
 		width: max-content;
-		zoom: 20%;
+		zoom: 25%;
 		overflow-x: scroll;
 		margin: auto;
 	}
 }
-
 
 
 
