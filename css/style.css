@@ -9,9 +9,7 @@ body {
 	display: grid;
 	align-items: center;
 	font-family: 'Poppins', sans-serif;
-	background-color: #F7F5EB;
-	width: 130%;
-	zoom: 20%;
+	background-color: #a1ecff;
 	overflow-x: scroll;
 	overflow-y: scroll;
 }
@@ -93,8 +91,8 @@ body {
 	margin: auto;
 }
 .tree li a span {
-	border: 1px solid #ccc;
-	border-radius: 5px;
+	border: 2px solid #ccc;
+	border-radius: 50px;
 	color: #666;
 	padding: 8px;
 	font-size: 12px;
@@ -104,7 +102,7 @@ body {
 }
 /*Hover-Section*/
 .tree li a:hover, .tree li a:hover i, .tree li a:hover span, .tree li a:hover+ul li a {
-	background: #78ff8f;
+	background: #faf8b3;
 	color: #000;
 	border: 1px solid #94a0b4;
 }
@@ -115,7 +113,7 @@ body {
 
 @media only screen and (min-width: 768px){
 	body {
-		height: 110vh;
+		height: 10vh;
 		display: grid;
 		align-items: center;
 		font-family: 'Poppins', sans-serif;
@@ -124,12 +122,13 @@ body {
 		width: max-content;
 		zoom: 20%;
 		overflow-x: scroll;
+		margin: auto;
 	}
 }
 
 @media (max-width: 1191px){
 	body {
-		height: 100vh;
+		height: 10vh;
 		display: grid;
 		align-items: center;
 		font-family: 'Poppins', sans-serif;
@@ -138,5 +137,6 @@ body {
 		width: max-content;
 		zoom: 20%;
 		overflow-x: scroll;
+		margin: auto;
 	}
 }
